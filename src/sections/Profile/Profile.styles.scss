@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    
+}
+
+.header{
+    width: 1347px;
+    height: 446px;
+    background-image: url("https://images.unsplash.com/photo-1622286342621-4bd786c2447c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    justify-content: center;
+}
+
+.header h1{
+        color: #ffffff;
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+        padding-top: 239px;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 50px;
+      
+}
+
+
+.profile{
+    display: flex;
+    margin-top: 200px;
+}
+
+.profimg{
+    background-color: #D19F68;
+    width: 488px;
+    height: 691px;
+    margin-left: 90px;
+  
+}
+
+.picframe{
+    width: 484px;
+    height: 692px;
+    border: 2px solid #FFFFFF;
+    margin: 38px;
+}
+
+.innerpic img{
+    width: 485px;
+    height: 689px;
+    margin: 38px;
+    
+}
+
+.brief{
+    width: 50%;
+    padding-top: 131px;
+    margin-left: 165px;
+    margin-right: 78px;
+
+}
+
+.brief h3{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+    padding: 10px;
+    color: #292c37;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.brief h1{
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 45px;
+    color: #1D2434;
+    padding: 10px;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 53px;
+}
+
+.brief p{
+    padding: 10px;
+    color: #212025;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+#specific{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 16px;
+    color: #212529;
+
+
+}
+
+.brief img{
+    width: 238px;
+    height: 80px;
+
+}
+
+
